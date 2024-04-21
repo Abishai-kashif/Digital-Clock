@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: ghostwhite;
+}
+
+body ,
+.time ,
+.leftSide ,
+.rightSide ,
+.day ,
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rightSide {
+    flex-direction: column;
+}
+
+.digitalClock {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: ghostwhite;
+    padding: 20px 40px;
+    height: 330px;
+    width: 340px;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 9px rgba(1, 1, 0.5, 0.5);
+    margin-bottom: 40px;
+}
+
+
+#hours {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+#dots {
+    font-size: 5rem;
+    font-weight: 800;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#minutes {
+    font-size: 4.6rem;
+    font-weight: 600;
+}
+
+#seconds ,#ampm {
+    font-size: 1.3rem;
+    font-weight: 300px;
+}
+
+.rightBottom {
+    transform: translateY(-20px);
+    margin-left: 59px;
+}
+
+#ampm {
+    color: rgb(255, 234, 0);
+}
+
+.day ,.date {
+    font-weight: 580;
+    color: #F0EBE3;
+}
+
+.day {
+    font-size: 1.5rem;
+}
+
+.date {
+    font-size: 1.2rem;
+    margin-top: 90px;
+}
+
+.time {
+    transform: translateY(2.6rem);
+} 
+
+
+#btn {
+    height: 3.2rem;
+    width: 6.6rem;
+    position: absolute;
+    bottom: 15px;
+    background-color:rgb(224, 191, 1);
+    font-weight: 750;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 4px rgba(1, 1, 0.5, 0.2);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    
+}
